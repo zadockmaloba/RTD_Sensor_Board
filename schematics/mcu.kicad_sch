@@ -1896,12 +1896,20 @@
 		(uuid "0061126a-0fb1-4308-ba4d-9cd77feaf1b7")
 	)
 	(no_connect
+		(at 129.54 69.85)
+		(uuid "0bf4f912-4c20-4841-8fe7-3ced761a328d")
+	)
+	(no_connect
 		(at 129.54 49.53)
 		(uuid "0dcfbb46-63a1-4dbc-9d6f-fa7b866e254e")
 	)
 	(no_connect
 		(at 160.02 77.47)
 		(uuid "209f1f9b-0cb5-4fd4-b8da-b04b0b4a25c1")
+	)
+	(no_connect
+		(at 129.54 67.31)
+		(uuid "255d8e7e-f925-4321-8ea6-8b0a3d3b538f")
 	)
 	(no_connect
 		(at 129.54 57.15)
@@ -2281,16 +2289,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 129.54 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4db8a5-0bf5-4a5a-8a1e-1c4917352447")
-	)
-	(wire
-		(pts
 			(xy 160.02 148.59) (xy 170.18 148.59)
 		)
 		(stroke
@@ -2631,16 +2629,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 129.54 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0b74c9-73a6-4870-b2d7-75c2c2af75d9")
-	)
-	(wire
-		(pts
 			(xy 170.18 69.85) (xy 160.02 69.85)
 		)
 		(stroke
@@ -2931,17 +2919,6 @@
 		)
 		(uuid "0a0e6d0a-a52d-43db-80a8-ee844415fb98")
 	)
-	(hierarchical_label "TWAI_CLK_OUT"
-		(shape output)
-		(at 120.65 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ac48a95-090b-4aa1-a135-8ab17a78de70")
-	)
 	(hierarchical_label "ISL_DE"
 		(shape output)
 		(at 170.18 69.85 0)
@@ -3117,17 +3094,6 @@
 			(justify right)
 		)
 		(uuid "f180d3e7-f08d-4ddd-a3b4-3603cdefc5cb")
-	)
-	(hierarchical_label "TWAI_BUS_ON_OFF"
-		(shape bidirectional)
-		(at 120.65 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f994e365-68de-482e-9ff4-29c84474ea27")
 	)
 	(symbol
 		(lib_id "ESP32-PICO-MINI-02:ESP32-PICO-MINI-02")

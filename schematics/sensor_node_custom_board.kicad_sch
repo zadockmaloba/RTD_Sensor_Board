@@ -194,6 +194,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 53.34) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395cf8a7-e231-4ff8-8468-a564a020aaa5")
+	)
+	(wire
+		(pts
+			(xy 189.23 55.88) (xy 185.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f252a30-0171-4cd0-a903-3fa5dd74280a")
+	)
+	(wire
+		(pts
 			(xy 189.23 20.32) (xy 185.42 20.32)
 		)
 		(stroke
@@ -241,6 +261,16 @@
 			(type default)
 		)
 		(uuid "5d4ff6ee-aab4-426a-b361-9f7e8aeeb4a5")
+	)
+	(wire
+		(pts
+			(xy 189.23 146.05) (xy 185.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfa09dc-9a34-448b-ae92-fd778d1fc577")
 	)
 	(wire
 		(pts
@@ -381,6 +411,16 @@
 			(type default)
 		)
 		(uuid "9d12132f-ffd0-4954-8b75-47e8402c8128")
+	)
+	(wire
+		(pts
+			(xy 189.23 149.86) (xy 185.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9edc5166-4e64-4bda-8b9e-3c54c7f29f12")
 	)
 	(wire
 		(pts
@@ -682,6 +722,26 @@
 		)
 		(uuid "7421493f-4b32-41b4-ab2c-bd1c9df5788c")
 	)
+	(label "TWAI_TX"
+		(at 189.23 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "796803a1-87e0-4fef-9e4c-607fb62567a6")
+	)
+	(label "TWAI_RX"
+		(at 189.23 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80c08984-49c5-4e84-ae1c-8c66e5f97d39")
+	)
 	(label "ESP_RXD0"
 		(at 189.23 20.32 0)
 		(effects
@@ -722,6 +782,16 @@
 		)
 		(uuid "9435c90e-3703-4a0f-a193-7dd9933760df")
 	)
+	(label "TWAI_RX"
+		(at 189.23 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "952d29a2-5bcd-4984-ab3a-63c4e3996fcf")
+	)
 	(label "ESP_TXD0"
 		(at 189.23 106.68 0)
 		(effects
@@ -751,6 +821,16 @@
 			(justify left bottom)
 		)
 		(uuid "cac2c367-4c97-4ac8-93b5-50c4d4268fff")
+	)
+	(label "TWAI_TX"
+		(at 189.23 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccea1bd0-20ec-45bc-937a-3aa73b422e8b")
 	)
 	(label "ISL_DE"
 		(at 189.23 128.27 0)
@@ -986,7 +1066,7 @@
 				(justify left)
 			)
 		)
-		(pin "RXD" output
+		(pin "RXD" input
 			(at 185.42 146.05 0)
 			(uuid "b665bed3-3efa-44c5-812c-18c5afb67a56")
 			(effects
@@ -996,7 +1076,7 @@
 				(justify right)
 			)
 		)
-		(pin "TXD" input
+		(pin "TXD" output
 			(at 185.42 149.86 0)
 			(uuid "ce896de0-4ed1-42d2-a99f-1606a6a0e635")
 			(effects
@@ -1176,16 +1256,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "VCONN" bidirectional
-			(at 185.42 110.49 0)
-			(uuid "1630321d-25d7-4361-a84d-c769154b3e64")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -1463,26 +1533,6 @@
 		(pin "~{ISL_RE}" output
 			(at 185.42 45.72 0)
 			(uuid "9525e051-e7b1-408c-b799-182eaaf78537")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TWAI_BUS_ON_OFF" bidirectional
-			(at 185.42 48.26 0)
-			(uuid "796cb2f6-dd62-4683-b6cf-a8d62458aaf8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TWAI_CLK_OUT" output
-			(at 185.42 50.8 0)
-			(uuid "a4b46cbb-d72f-4594-9283-63b8ba149a7e")
 			(effects
 				(font
 					(size 1.27 1.27)
