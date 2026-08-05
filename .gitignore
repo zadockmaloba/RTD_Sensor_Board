@@ -1,0 +1,28 @@
+# KiCAD Generated files
+
+fp-info-cache
+gerbers/
+manufacturing/
+.history/
+*-backups/
+*-bak
+*.bak
+bom
+~*.lck
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment files
+.env
+.env.local
+.env.*.local

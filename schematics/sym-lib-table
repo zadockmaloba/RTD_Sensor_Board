@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ESP32-PICO-MINI-02") (type "KiCad") (uri "${KIPRJMOD}/lib/ESP32-PICO-MINI-02") (options "") (descr ""))
+	(lib (name "DB9") (type "KiCad") (uri "${KIPRJMOD}/lib/DB9") (options "") (descr ""))
+)
